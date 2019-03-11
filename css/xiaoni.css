@@ -1,0 +1,239 @@
+*{margin:0;padding:0;}
+/* logo */
+.header{
+ height: 98px;
+ position: relative;
+}
+.logo{
+    height:49px;
+    width: 49px;
+    border-radius: 2px;
+    background-color:#f56600;
+    background-image: url("../images/mi-logo.png");
+    position: absolute;
+    left:145px;
+    top:0;
+    margin-top: 25px;
+    
+}
+.every{
+    position: absolute;
+    left: 214px;
+    top: 0px;
+    margin-top: 20px;
+}
+.mi-shop{
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.mi-shop2{
+    font-size:10px;
+    color: dimgrey;
+}
+/* 登陆注册 */
+.logo-bg{
+    position: relative;
+    height: 588px;
+    background-image: url("../images/小米9背景.jpg")
+}
+.form{
+    margin-top: 35px;
+    width: 410px;
+    height: 557px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    background:#fff;
+    overflow:hidden;
+    float: left;
+    position: absolute;
+    left: 880px;
+    top: -4px;
+
+}
+
+input{
+    width:336px;
+    padding:8px;
+    outline: none;
+    height:30px;
+    border:1px solid #e0e0e0}
+.login{
+    font-size: 22px;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.wall{
+    position: absolute;
+    left: 203px;
+    top: 35px;
+    color: #757575;
+}
+.login span{
+    color:#333;
+    cursor: pointer;
+}
+
+.login span.active{
+    color:#f56600
+}
+
+.phone{
+    margin-bottom: 15px;
+}
+.password{
+    margin-bottom: 20px;
+}
+.submit input{
+    width:352px;
+    height:50px;background:#f56600;
+    color:white;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.register{
+    margin-bottom: 130px;
+    position: relative;
+}
+.join{
+    position: absolute;
+    left: 30px;
+    top: -12px;
+    font-size: 14px;
+    color:#f56600;
+}
+
+.forget{
+    position: absolute;
+    left: 260px;
+    top: -12px;
+    font-size: 14px;
+    color:#757575;
+}
+/* 二维码 */
+.erweima{
+    color:#757575;
+    height: 500px;
+    width: 300px;
+    position: absolute;
+    top: 185px;
+    left:50px;
+    font-size: 14px;
+    display: none;
+}
+.mi-app{
+    color: #f56600;
+}
+/*  */
+.footer{
+    width:352px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.footer .qita{
+    position:relative;
+    margin-bottom:60px;
+}
+.other{
+    display: inline-block;
+    position: absolute;
+    top: 439px;  
+    left: 156px;
+    color:#a8a7a7;
+    font-size: 14px;
+}
+ .right{
+    position:absolute;
+    display: block;
+    width:125px;
+    height:1px;
+    background:#a8a7a7;
+    top:450px;
+    left:242px;
+}
+
+.left{
+    position:absolute;
+    display: block;
+    width:125px;
+    height:1px;
+    background:#a8a7a7;
+    top:30px;
+}
+.qita{
+    color:#757575;
+}
+.right{right:0}
+.AllIcon{
+    position: absolute;
+    top:466px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.AllIcon span{
+    display: inline-block;
+    position:absolute;
+    margin:auto;
+    width:18px;
+    height:18px;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    background:url(../images/icons_type.png) no-repeat ;
+}
+
+.AllIcon a{
+    position:relative;
+    display:inline-block;
+    width:30px;
+    height:30px;
+    background:#333;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 35px;
+      
+}
+.AllIcon .qq{background-position: -20px 0}
+.AllIcon .weibo{background-position: -38px 0}
+.AllIcon .zhifu{background-position: -57px 0 ;width:24px;}
+.AllIcon .weixin{background-position: -84px 0;width:24px;}
+/* 底部 */
+.noname{
+    height: 80px;
+    background: #ffffff;
+}
+a{
+    text-decoration: none;
+    color:#757575;
+}
+.problem{
+    height: 20px;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.language{
+    font-size: 14px;
+    display: inline-block;
+    width:65px;
+    line-height: 20px;
+    text-align: center;
+}
+.language-cn{
+    font-size: 14px;
+    display: inline-block;
+    width:40px;
+    line-height: 20px;
+    text-align: center;
+}
+.foot{
+    font-size: 14px;
+  height: 60px;
+  text-align: center;
+  color: #757575;
+  margin-top: 15px;
+    
+}
+/*  */
