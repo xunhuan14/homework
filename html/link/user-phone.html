@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>绑定手机\微信</title>
+    <style>
+        *{margin:0;padding:0;}
+        .right-phone{
+            height: 840px;
+            background:#f0f0f0;
+        }
+        .head{
+            margin-left: 30px;
+            width: 720px;
+            height: 70px;
+            border-bottom: 1px dashed #dcdcdc;
+            position: relative;
+        }
+        .line{
+            height: 30px;
+            width: 120px;
+            border-left:2px solid #1ac0c0;
+            position: absolute;
+            left: 75px;
+            bottom: 11px;
+        }
+        .change{
+           position: absolute;
+           top: 10px;
+        }
+        .middle{
+            width:496px;
+            height: 65px;
+            margin:20px 0px 30px 105px;
+            background:white;
+            border:1px solid #dcdcdc;
+            position: relative;
+        }
+        .phone{
+            width: 47px;
+            height: 47px;
+            position: absolute;
+            left:25px;
+            top: 10px;
+        }
+        .phone-num{
+            position: relative;
+            left:68px;
+            top:12px;
+        }
+        .phone-num>p{
+            margin-top: 6px;
+            font-size:12px;
+            color: #5c5c5c;
+        }
+        .weixin{
+            width:496px;
+            height: 65px;
+            margin:20px 0px 0px 105px;
+            background:white;
+            border:1px solid #dcdcdc;
+            position: relative;
+        }
+        .wechat{
+            width: 47px;
+            height: 47px;
+            position: absolute;
+            left:25px;
+            top: 10px;
+        }
+        .wechat-num{
+            position: relative;
+            left:68px;
+            top:12px;
+        }
+        .wechat-num>p{
+            margin-top: 6 px;
+            font-size:12px;
+            color: #5c5c5c;
+        }
+        .phone-now{
+            background:#fea700;
+            color:white;
+            border: none;
+            width:80px;
+            height: 30px;
+            position: relative;
+            left: 350px;
+            top:-26px;
+        } 
+        .wechat-now{
+            background:#fea700;
+            color:white;
+            border: none;
+            width:80px;
+            height: 30px;
+            position: relative;
+            left: 350px;
+            top:-15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="right-phone">
+        <div class="head">
+            <div class="line">
+            <p class="change">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修改密码</p></div>
+            
+        </div>
+        <div class="middle">
+            <div class="phone"> <img src="../../images/phone2.png" alt=""></div>
+            <div class="phone-num"><p>手机绑定</p><p>您还未绑定手机号</p></div>
+            <button class="phone-now">立即绑定</button>
+        </div>
+        <div  class="weixin">
+            <div class="wechat"> <img src="../../images/weixin3.png" alt=""></div>
+            <div class="wechat-num"><p>微信绑定</p><p>您还未绑定微信号</p></div>
+            <button class="wechat-now">立即绑定</button>
+        </div>
+    </div>
+</body>
+</html>

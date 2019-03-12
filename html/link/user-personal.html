@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{margin:0;padding:0;}
+        a{
+            text-decoration: none;
+            color:#353535;
+        }
+        .right{
+            border:1px solid #e4e2e2;
+        }
+        .center{
+           
+            height:140px;
+            border-bottom:1px solid #e4e2e2;
+            background-color:#f0f0f0;
+            position: relative;
+        }
+        .user-img{
+            position: absolute;
+            left:20px;
+            top:20px;
+        }
+        .name{
+            position: absolute;
+            left:160px;
+            top:30px;
+        }
+        .grate{
+            position: absolute;
+            left:160px;
+            top: 70px;
+        }
+        .message{
+            position: absolute;
+            left:160px;
+            top: 95px;
+        }
+        .mid-line{
+            width:0px;
+            height:90px;
+            border:0.5px solid #e4e2e2;
+            position: absolute;
+            left:360px;
+            top:27px;
+        }
+        .wechat{
+            position: absolute;
+            left:390px;
+            top: 50px;
+        }
+        .vx{
+            font-size: 12px;
+            color: #5a5a5a;
+            position: absolute;
+            left:439px;
+            top: 50px;
+        }
+        .yet{
+            font-size: 12px;
+            color:#5a5a5a;
+            position: absolute;
+            left: 439px;
+            top:70px;
+        }
+        .phone{
+            position: absolute;
+            left:580px;
+            top:50px;
+        }
+        .phone-num{
+            font-size: 12px;
+            color: #5a5a5a;
+            position: absolute;
+            left: 625px;
+            top: 50px;
+        }
+        .phone-yet{
+            font-size: 12px;
+            color: #5a5a5a;
+            position: absolute;
+            left:625px;
+            top: 70px;
+        }
+    </style>
+</head>
+<body>
+    <div class="right">
+    <div class="center">
+        <img class="user-img"src="../../images/user.png" alt="">
+        <p class="name">用户名</p>
+        <p class="grate">积分值：198分</p>
+        <a href="#" class="message">我的消息0条</a>
+        <div class="mid-line"></div>
+
+        <!-- 手机微信 -->
+        <img class="wechat"src="../../images/weixin1.png" alt="">
+        <p class="vx">微信绑定</p>
+        <p class="yet">未绑定<a style="color:#19bebe;"href="#">&nbsp;立即绑定</a></p>
+
+        <img class="phone"src="../../images/phone.png" alt="">
+        <p class="phone-num">手机号码绑定</p>
+        <p class="phone-yet">未绑定<a style="color:#19bebe"href="#">&nbsp;立即绑定</a></p>
+    </div>
+</div>
+</body>
+</html>
