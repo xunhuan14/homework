@@ -1,0 +1,166 @@
+#gengduo{
+    position: absolute;
+    top:20px;
+    left: 97%;
+}
+.xinpin-header p{
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #000;
+    width: 900px;
+}
+.xinpin{
+    position: relative;
+    height: 1025px;
+}
+.xinpin-right{
+    position: absolute;
+    top:50px;
+    left: 75%;
+    background: #fafafa
+}
+.right-one{
+    height: 130px;
+    position: relative;
+}
+.right-one p{
+    width: 50px;
+    background: red;
+    margin-left: 70px;
+    color: #fff;
+}
+#right-one-1{
+    margin-top:20px;
+    font-size: 14px;
+    color: #333;
+    display: inline-block;
+}
+.right-one a{
+    color: #808080;
+}
+.right-one img{
+    position: absolute;
+    left: 60%;
+    margin-right: 15px;
+}
+.xinpin-right span{
+    margin-left: 20px;
+}
+#img-r{
+    position: absolute;
+    top:15px;
+}
+.one img{
+    float: right;
+    margin-right:30px;
+}
+.one span{
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.two,.three{
+    height: 155px;
+}
+.two img{
+    float: right;
+    margin-right: 55px;
+    margin-top: 20px;
+}
+.span span{
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.three img{
+    float: right;
+    height:155px;
+    width: 50%;
+}
+.xinpin .col-4{
+    height: 310px;
+}
+.four img{
+    float: right;
+    margin-right: 45px;
+}
+.five img{
+    float: right;
+    margin-right: 45px;
+}
+.zuihou img{
+    float: right;
+    margin-right: 45px;
+}
+.right{
+    height: 546px;
+}
+.right a,p,input,h4,h6{
+    margin-left: 30px;
+}
+.right a{
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    width: 250px;
+    font-size: 13px;
+    /* margin-left: 30px; */
+}
+.right a:first-child{
+    margin-top: 50px;
+}
+.right span{
+    float: right;
+}
+.right p:not(:last-child){
+    width: 250px;
+    height: 1px;
+    background: #808080;
+    /* margin-left: 30px; */
+}
+.right h4,h6{
+    font-weight: lighter;
+}
+.right h4{
+    margin-top: 50px;
+    font-size: 15px;
+    color: #000;
+}
+.right input:not(:last-child){
+    margin-top: 15px;
+    height: 38px;
+    width: 250px;
+    outline: none;
+}
+.right button{
+    position: relative;
+    right: 20px;
+    outline: none;
+    border:none;
+    background: #fff
+}
+.right button:hover{
+    cursor: pointer;
+}
+.right h6{
+    margin-top: 15px;
+}
+#submit{
+    outline: none;
+    border:none;
+    width: 250px;
+    height: 35px;
+    color: white;
+}
+#submit:hover{
+    cursor: pointer;
+}
+.new{
+    font-size: 12px;
+    line-height: 60px;
+    color: #808080;
+}
+.pay{
+    margin-bottom: 6px;
+}

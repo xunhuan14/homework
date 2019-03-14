@@ -1,0 +1,134 @@
+.footer{
+    height: 560px;
+    background: #fafafa;
+    width: 100%;
+}
+.footer-nei{
+    width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-one{
+    width: 1240px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 215px;
+}
+.footer-one-a{
+    margin-top: 50px;
+    margin-bottom: 45px;
+    width: 20%;
+    float: left;
+    text-align: center;
+    height:120px;
+}
+.footer-one-a a{
+    line-height: 60px;
+}
+#xian{
+    height: 1px;
+    width: 1240px;
+    background: #808080;
+}
+.footer-two{
+    height: 200px;
+    border-bottom: 1px solid #808080;
+}
+.footer-two-lfet{
+    margin-top: 40px;
+    width: 950px;
+}
+.footer-two-lfet a{
+    display: block;
+    width: 98px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.footer-two-lfet a:first-child{
+    font-size: 15px;
+    margin-bottom: 25px;
+    color: #000;
+}
+.footer-two-lfet a:not(:first-child){
+    color: #808080;
+}
+.footer-two-lfet a:hover{
+    color: #ff4a00
+}
+.footer-two-r{
+    text-align: center;
+}
+.footer-two-r p:first-child{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.footer-two-r p:not(:first-child){
+    margin-top: 5px;
+}
+.footer-two-r input{
+    height: 35px;
+    outline: none;
+    background: #ff4a00;
+    border: none;
+    width: 120px;
+    color: #fff;
+    margin-left: 0px;
+    margin-top: 15px;
+}
+.footer-three{
+    text-align: center;
+}
+.footer-three li{
+    float: left;
+    list-style: none;
+}
+.footer-three ul{
+    margin-top: 10px;
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+.footer-three a{
+    color: #808080;
+}
+.footer-three input{
+    margin-top: 15px;
+    height: 20px;
+    width: 200px;
+    outline: none;
+}
+.footer-three button{
+    position: relative;
+    right: 20px;
+    outline: none;
+    border: none;
+    background: #fff;
+}
+#fixed{
+    height: 120px;
+    width: 40px;
+    background: #808080;
+    position: fixed;
+    right: 15px;
+    bottom: 50px;
+}
+#fixed a img{
+    margin-bottom: 5px;
+    height: 40px;
+    width: 40px;
+}
+#d{
+    width:180px;
+    height: 30px;
+    outline: none;
+}
+.jiange{
+    height: 40px;
+}
+.last{
+    height: 20px;
+    margin-top: 20px;   
+}
